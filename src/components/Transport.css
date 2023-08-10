@@ -1,0 +1,22 @@
+.container-Home{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    /* max-width: 100%;
+    max-height: 100%; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    background: rgb(62,59,108);
+    background: linear-gradient(215deg, rgba(62,59,108,1) 5%, rgba(60,110,88,1) 61%, rgba(70,115,95,1) 68%);
+}
+.card6{
+        height: 60%;
+        width: 30%;
+        font-size: 35px;
+        font-weight: 900;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; 
+}
