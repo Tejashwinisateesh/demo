@@ -1,4 +1,4 @@
-.container{
+.container-fluid{
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -7,31 +7,51 @@
     background-size: cover;
     max-width: 100%;
     max-height: 100%;
-    justify-content: start;
-    align-items: center;
+    justify-content: center !important;
+    align-items: flex-start;
     display: flex;
    
 }
 .card{
     height: 40%;
     width: 30%;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 900;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; */
 }   
 .form-control{
-    margin-top: 5%;
+    margin: 10%;
     height: 30px; /* Change this value to adjust the height */
     width:200px; /* Change this value to adjust the width */
-    font-size: 16px;
+    font-size: 20px;
     background-color: transparent;
     border-radius: 5%;
 }
-.btn{
+.btn1{
     height: 35px;
     width: 48px;
     background-color:transparent;
     border-radius: 25%;
     font-size: 16px;
 }
+
+.header {
+    margin-top: 30px;
+    overflow: hidden;
+    background-color: transparent;
+    /* padding: 50px 50px; */
+  }
+  
+  .header a {
+    float: center;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;   
+    text-decoration: none;
+    font-size: 40px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  

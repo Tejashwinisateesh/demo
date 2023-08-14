@@ -24,26 +24,17 @@ function Login() {
 
   return (
     <>
-      <div className="container">
-        <div>
-        </div>
-        <div className="card ">
+      <div className="container-fluid"> 
           <form classname="form-inline">
             <div className="form-group">
-              <div className="row m-4">
-                <div className="col-lg-12 col-md-12 col-sm-12">
-                {/* <h3>Black Cats Tourism</h3> */}
-                <label  className="header">Enter the code</label>
-                </div>
-              </div>
-              <div className="row d-flex">
+            <div class="header">
+              <a >Black Cats Tourism</a>
               <input className="form-control"  placeholder="Enter the code"  value={code} onChange={handleInputChange}/>
-              <button type="button" class="btn" onClick={handleButtonClick}>Start <i class='fas fa-play'></i></button>
-              </div>
+              <button type="button" class="btn1" onClick={handleButtonClick}>Start <i class='fas fa-play'></i></button>
+               </div>
             </div>
           </form>
         </div>
-      </div>
     </>
   );
 }

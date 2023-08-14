@@ -1,20 +1,24 @@
-import React from 'react'
+import React from 'react';
+import './Food.css';
+import { useNavigate } from 'react-router-dom';
+import Home from './Home';
 
  function Food() {
+ 
+  const navigate = useNavigate()
+  const back = ()=>{
+    navigate('/Home')
+  }
+
   return (
     <>
-   <div class="wrapper">
 
-  <div class="card10">
-    <img src="https://images.unsplash.com/photo-1425342605259-25d80e320565?auto=format&fit=crop&w=750&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="Road"></img>
-    <div class="info">
-      <h1>Road</h1>
-      <p>Lorem Ipsum is simply dummy text from the printing and typesetting industry</p>
-      <button>Read More</button>
+  <div className='container-Food'>
+    <div className='Food-Image'>
+      <button className='btn' onClick={back}>Back</button>
     </div>
-  </div>
+     </div>
 
-</div>
     </>
   )
 }

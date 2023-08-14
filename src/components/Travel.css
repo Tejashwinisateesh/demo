@@ -1,22 +1,35 @@
-.container-Home{
+.container-Travel{
     height: 100vh;
     width: 100vw;
     position: relative;
-    /* max-width: 100%;
-    max-height: 100%; */
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    background: rgb(62,59,108);
-    background: linear-gradient(215deg, rgba(62,59,108,1) 5%, rgba(60,110,88,1) 61%, rgba(70,115,95,1) 68%);
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url('../images/physical-world-map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 }
-.card5{
-        height: 80%;
-        width: 30%;
-        font-size: 35px;
-        font-weight: 900;
-        text-align: center;
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; 
-}
+
+.button {
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 150px; /* Adjust this value as needed */
+    left: 70%;
+    transform: translateX(-50%);
+  }
+  @media (max-width: 768px) {
+    .button {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+  }

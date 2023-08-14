@@ -2,13 +2,14 @@
         height: 100vh;
         width: 100vw;
         position: relative;
-        /* max-width: 100%;
-        max-height: 100%; */
+        max-width: 100%;
+        max-height: 100%;
         justify-content: center;
         align-items: center;
         display: flex;
         flex-wrap: wrap;
         gap: 40px;
+        overflow: auto;
         background: rgb(62,59,108);
         background: linear-gradient(215deg, rgba(62,59,108,1) 5%, rgba(60,110,88,1) 61%, rgba(70,115,95,1) 68%);
 }
@@ -28,8 +29,8 @@
     background: rgb(62,59,108);
 
     background-image: url('../nature.jpg');
+
     background-size: cover;
-    /* background: linear-gradient(215deg, rgba(62,59,108,1) 5%, rgba(60,110,88,1) 61%, rgba(70,115,95,1) 68%); */
 
 }
 .card1 .icon2 {
@@ -47,9 +48,9 @@
     background: rgb(62,59,108);
 
     background-image: url('../foodpic.jpeg');
-    background-size: cover;
-    /* background: linear-gradient(215deg, rgba(62,59,108,1) 5%, rgba(60,110,88,1) 61%, rgba(70,115,95,1) 68%); */
 
+    background-size: cover;
+  
 }
 .card1 .icon3 {
 
@@ -66,8 +67,9 @@
     background: rgb(62,59,108);
 
     background-image: url('../transportimage.jpg');
+
     background-size: cover;
-    /* background: linear-gradient(215deg, rgba(62,59,108,1) 5%, rgba(60,110,88,1) 61%, rgba(70,115,95,1) 68%); */
+ 
 
 }
 .card1 .icon4 {
@@ -85,8 +87,9 @@
     background: rgb(62,59,108);
 
     background-image: url('../images.jpeg');
+    
     background-size: cover;
-    /* background: linear-gradient(215deg, rgba(62,59,108,1) 5%, rgba(60,110,88,1) 61%, rgba(70,115,95,1) 68%); */
+ 
 
 }
 
@@ -218,3 +221,11 @@
     text-align: center;
     justify-content: center !important;
 }
+.btn{
+position: absolute;
+height: 40px;
+width: 48px;
+background-color:blanchedalmond;
+border-radius: 25%;
+font-size: 16px;
+}   

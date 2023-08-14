@@ -1,10 +1,7 @@
 import React from 'react';
 import './Home.css';
 import { useNavigate } from 'react-router-dom'
-import Food from './Food';
-import Transport from './Transport';
-import Travel from './Travel';
-import Places from './Places';
+
 function Home() {
 
   const navigate = useNavigate()
